@@ -24,10 +24,10 @@ function Login() {
     <div className='login'>
     <div className='login__container'>
         <img 
-        src ="https://www.freepnglogos.com/uploads/whatsapp-logo-png-hd-2.png"
+        src ="https://cdn-icons-png.flaticon.com/512/5539/5539745.png"
          alt =""/>
          <div className='login_text'>
-            <h3>Sign in to WhatsApp</h3>
+            <h3>Sign in to ChatApp</h3>
          </div>
 
          <Button type="submit" onClick={signIn}>

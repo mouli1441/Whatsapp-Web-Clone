@@ -5,6 +5,13 @@
     border: 1px solid #f6f6f6;
 }
 
+.sidebarchat img {
+    width: 50px; /* Size of the avatar */
+    height: 50px; /* Ensures the avatar is square */
+    border-radius: 50%; /* Makes the avatar circular */
+    margin-right: 15px; /* Space between the avatar and the text */
+  }
+
 .sidebarchat:hover {
     background-color: #ebebeb;
 }
@@ -14,6 +21,7 @@ a{
     color: black; 
 }
 
+
 .sidebarchat__info > h3 {
    font-size: 14px;
    margin-bottom: 8px;
@@ -21,6 +29,7 @@ a{
 
 .sidebarchat__info {
     margin-left: 15px;
+    
 }
 
 .sidebarchat__add {
